@@ -35,13 +35,13 @@ while userIn != "q":
         if tv.is_on():
             print("TV is already on!")
         else:
-            print("Turning TV On!")
+            print("Turning TV On...")
             tv.wake_up()
     elif userIn == "o":
         if not tv.is_on():
             print("TV is already off!")
         else:
-            print("Turning TV Off!")
+            print("Turning TV Off...")
             tv.power_off()
     elif userIn == "q":
         # Dirty work around for having to use a while instead of a do-while
